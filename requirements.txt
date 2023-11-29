@@ -8,7 +8,7 @@ aiodns==3.0.0
     # via -r requirements.in
 aiofiles==0.7.0
     # via -r requirements.in
-aiohttp==3.8.6
+aiohttp==3.9.0
     # via -r requirements.in
 aiosignal==1.3.1
     # via aiohttp
@@ -16,8 +16,6 @@ argon2-cffi==20.1.0
     # via notebook
 async-generator==1.10
     # via nbclient
-async-timeout==4.0.3
-    # via aiohttp
 attrs==21.2.0
     # via
     #   aiohttp
@@ -36,8 +34,6 @@ cffi==1.14.5
     #   pycares
 chardet==4.0.0
     # via requests
-charset-normalizer==3.3.2
-    # via aiohttp
 click==8.0.1
     # via nltk
 colorama==0.4.4
