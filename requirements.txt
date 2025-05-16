@@ -16,6 +16,8 @@ argon2-cffi==20.1.0
     # via notebook
 async-generator==1.10
     # via nbclient
+async-timeout==4.0.3
+    # via aiohttp
 attrs==21.2.0
     # via
     #   aiohttp
@@ -191,7 +193,7 @@ terminado==0.10.0
     # via notebook
 testpath==0.5.0
     # via nbconvert
-tornado==6.1
+tornado==6.4.2
     # via
     #   ipykernel
     #   jupyter-client
