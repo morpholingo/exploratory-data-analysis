@@ -38,7 +38,7 @@ cffi==1.14.5
     # via
     #   argon2-cffi
     #   pycares
-chardet==4.0.0
+charset-normalizer==3.4.2
     # via requests
 click==8.0.1
     # via nltk
@@ -184,7 +184,7 @@ pyzmq==22.0.3
     #   notebook
 regex==2024.11.6
     # via nltk
-requests==2.25.1
+requests==2.32.2
     # via -r requirements.in
 rich==10.2.2
     # via -r requirements.in
