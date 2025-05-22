@@ -8,7 +8,9 @@ aiodns==3.0.0
     # via -r requirements.in
 aiofiles==0.7.0
     # via -r requirements.in
-aiohttp==3.9.0
+aiohappyeyeballs==2.6.1
+    # via aiohttp
+aiohttp==3.11.0b0
     # via -r requirements.in
 aiosignal==1.3.1
     # via aiohttp
@@ -142,6 +144,10 @@ prometheus-client==0.10.1
     # via notebook
 prompt-toolkit==3.0.18
     # via ipython
+propcache==0.3.1
+    # via
+    #   aiohttp
+    #   yarl
 ptyprocess==0.7.0
     # via
     #   pexpect
@@ -218,7 +224,7 @@ wcwidth==0.2.5
     # via prompt-toolkit
 webencodings==0.5.1
     # via bleach
-yarl==1.6.3
+yarl==1.20.0
     # via aiohttp
 
 # The following packages are considered to be unsafe in a requirements file:
