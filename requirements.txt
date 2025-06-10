@@ -166,7 +166,7 @@ ptyprocess==0.7.0
     #   terminado
 pure-eval==0.2.3
     # via stack-data
-pycares==4.0.0
+pycares==4.2.0
     # via aiodns
 pycparser==2.20
     # via cffi
